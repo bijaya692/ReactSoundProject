@@ -1,0 +1,18 @@
+:root{--bg:#f6f8fa;--card:#fff;--muted:#666;--accent:#276ef1;}
+*{box-sizing:border-box}
+body{font-family:Inter,Segoe UI,Roboto,system-ui; margin:0; background:var(--bg); color:#111}
+.container{max-width:900px;margin:28px auto;padding:20px}
+h1{margin:0 0 12px}
+.form{display:flex;gap:8px;margin-bottom:12px}
+.form input{padding:8px;border:1px solid #ddd;border-radius:6px;flex:1}
+.form button{padding:8px 12px;background:var(--accent);color:#fff;border:none;border-radius:6px}
+.controls{display:flex;gap:12px;align-items:center;margin-bottom:12px}
+.controls input{padding:8px;border-radius:6px;border:1px solid #ddd}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
+.card{background:var(--card);padding:12px;border-radius:8px;display:flex;align-items:center;gap:12px;box-shadow:0 1px 3px rgba(0,0,0,0.06)}
+.icon{font-size:28px;cursor:pointer}
+.info h3{margin:0}
+.actions{margin-left:auto;display:flex;gap:8px}
+.actions button{padding:6px 8px;border-radius:6px;border:1px solid #ddd;background:#fff;cursor:pointer}
+.error{color:#b00020;margin-top:6px}
+.empty{color:var(--muted)}
